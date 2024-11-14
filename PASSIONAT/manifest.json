@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "PASSION COUNTTTERR",
+    "version": "6.9",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+        "64": "myguy.png",
+        "128": "passion.png"
+        }
+    }
+}
+  

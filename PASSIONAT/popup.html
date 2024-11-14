@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>THE PASSION</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url(https://fonts.googleapis.com/css?family=Bungee);
+    body {
+      font-family: "Noto Sans", sans-serif;
+      width: 250px;
+      padding: 10px;
+    }
+    h3 {
+      margin-left: 50px;
+    }
+    button {
+      background-color: #f3cbdf;
+      border-radius: 50px;
+      width: 100%;
+      color: #53114a;
+      border: 3px solid #c42e8b;
+      line-height: 1;
+      font-size: 15px;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 10px 25px;
+      font-family: "Bungee";
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      min-width: 200px;
+      text-align: center;
+    }
+    button:hover,
+    button:focus {
+      -webkit-animation-name: wobble;
+      animation-name: wobble;
+      -webkit-animation-duration: 1s;
+      animation-duration: 1s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+    }
+    #results {
+      margin-top: 15px;
+      font-size: 14px;
+    }
+    .result-line {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>PASSION COUNTER</h3>
+  <button id="countButton">Count</button>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
